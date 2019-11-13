@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -9443,8 +9443,8 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J3" library="Headers" library_urn="urn:adsk.eagle:library:13525965" deviceset="61300211121" device="" package3d_urn="urn:adsk.eagle:package:11390690/2"/>
 <part name="S1" library="switch-dil" library_urn="urn:adsk.eagle:library:375" deviceset="DIP02YL" device="" package3d_urn="urn:adsk.eagle:package:27254/2"/>
-<part name="R57" library="rcl" library_urn="urn:adsk.eagle:library:13439567" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47K"/>
 <part name="+3V20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="R57" library="rcl" library_urn="urn:adsk.eagle:library:13439567" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="47K"/>
 </parts>
 <sheets>
 <sheet>
@@ -9940,12 +9940,12 @@ ESP8266-01</text>
 <attribute name="NAME" x="193.04" y="114.3" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="202.565" y="114.3" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="+3V20" gate="G$1" x="185.42" y="147.32" smashed="yes">
+<attribute name="VALUE" x="182.88" y="142.24" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="R57" gate="G$1" x="185.42" y="137.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="183.9214" y="133.35" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="188.722" y="133.35" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="+3V20" gate="G$1" x="185.42" y="147.32" smashed="yes">
-<attribute name="VALUE" x="182.88" y="142.24" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -10033,9 +10033,9 @@ ESP8266-01</text>
 <wire x1="53.34" y1="43.18" x2="76.2" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R57" gate="G$1" pin="2"/>
 <wire x1="185.42" y1="142.24" x2="185.42" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="+3V20" gate="G$1" pin="+3V3"/>
+<pinref part="R57" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="ACD0" class="0">
@@ -10116,10 +10116,10 @@ ESP8266-01</text>
 <wire x1="195.58" y1="127" x2="195.58" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="129.54" x2="185.42" y2="129.54" width="0.1524" layer="91"/>
 <label x="182.88" y="129.54" size="1.4224" layer="95" rot="R180" xref="yes"/>
-<pinref part="R57" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="129.54" x2="182.88" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="132.08" x2="185.42" y2="129.54" width="0.1524" layer="91"/>
 <junction x="185.42" y="129.54"/>
+<pinref part="R57" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="RXD" class="0">
