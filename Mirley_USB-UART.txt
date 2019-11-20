@@ -1,0 +1,37 @@
+Partlist exported from /Users/Limak/Documents/EAGLE/projects/Mirley_ESP8266/Mirley_USB-UART.sch at 20.11.2019 19:11
+
+Part Value                Device               Package              Description                                                       
+C1   100nF                C-EUC0805K           C0805K               CAPACITOR, European symbol                                        
+C2   10uF                 C-EUC0805K           C0805K               CAPACITOR, European symbol                                        
+C3   100nF                C-EUC0805K           C0805K               CAPACITOR, European symbol                                        
+C4   10uF                 C-EUC0805K           C0805K               CAPACITOR, European symbol                                        
+G1                        IFX1117ME_V33        SOT230P700X170-4N-1  IFX1117ME V33                                                     
+J1   61301611121          61301611121          61301611121          CONN HEADER VERT 16POS 2.54MM                                     
+J2   61301611121          61301611121          61301611121          CONN HEADER VERT 16POS 2.54MM                                     
+J4   62000311121          62000311121          62000311121          THT Vertical Pin Header WR-PHD, Pitch 2.00 mm, Single Row, 3 pins 
+J7   62000811121          62000811121          62000811121          THT Vertical Pin Header WR-PHD, Pitch 2.00 mm, Single Row, 8 pins 
+JP1                       PINHD-2X2            2X02                 PIN HEADER                                                        
+JP2                       PINHD-2X4            2X04                 PIN HEADER                                                        
+R1   10K                  R-EU_R0805           R0805                RESISTOR, European symbol                                         
+R2   10K                  R-EU_R0805           R0805                RESISTOR, European symbol                                         
+R56  4,7K                 R-EU_R0805           R0805                RESISTOR, European symbol                                         
+R57  47K                  R-EU_R0805           R0805                RESISTOR, European symbol                                         
+R58  10K                  R-EU_R0805           R0805                RESISTOR, European symbol                                         
+R59  10K                  R-EU_R0805           R0805                RESISTOR, European symbol                                         
+R60  4,7K                 R-EU_R0805           R0805                RESISTOR, European symbol                                         
+R61  4,7K                 R-EU_R0805           R0805                RESISTOR, European symbol                                         
+R62  4,7K                 R-EU_R0805           R0805                RESISTOR, European symbol                                         
+R63  10K                  R-EU_R0805           R0805                RESISTOR, European symbol                                         
+R64  10K                  R-EU_R0805           R0805                RESISTOR, European symbol                                         
+R65  10K                  R-EU_R0805           R0805                RESISTOR, European symbol                                         
+R66  10K                  R-EU_R0805           R0805                RESISTOR, European symbol                                         
+R67  10K                  R-EU_R0805           R0805                RESISTOR, European symbol                                         
+R68  10K                  R-EU_R0805           R0805                RESISTOR, European symbol                                         
+R69  10K                  R-EU_R0805           R0805                RESISTOR, European symbol                                         
+R70  10K                  R-EU_R0805           R0805                RESISTOR, European symbol                                         
+S1                        DIP02YL              DIP02YL              DIL/CODE SWITCH                                                   
+T1   BC817U               BC817U               INF-SC74             NPN TRANSISTOR                                                    
+T2   BC817U               BC817U               INF-SC74             NPN TRANSISTOR                                                    
+T3   BC817U               BC817U               INF-SC74             NPN TRANSISTOR                                                    
+U$1  USB-SERIAL-CH340     USB-SERIAL-CH340     USB-SERIAL-CH340     USB to Serial UART Converter based on CP2102 chip                 
+U$4  WIRELESS-WIFI-ESP-01 WIRELESS-WIFI-ESP-01 WIRELESS-WIFI-ESP-01 Wireless Wi-Fi ESP-01 Module based on ESP8266 chip                

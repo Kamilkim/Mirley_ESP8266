@@ -1,0 +1,73 @@
+Partlist exported from /Users/Limak/Documents/EAGLE/projects/Mirley_ESP8266/Mirley_ESP8266.sch at 20.11.2019 19:20
+
+Part  Value                   Device                  Package            Description                   
+C3    100nF                   C-EUC0805K              C0805K             CAPACITOR, European symbol    
+ESP_2 ESP8266-12-WITH-ADAPTER ESP8266-12-WITH-ADAPTER ESP8266-12-ADAPTER ESP8266 Adapter               
+J1    61301611121             61301611121             61301611121        CONN HEADER VERT 16POS 2.54MM 
+J2    61301611121             61301611121             61301611121        CONN HEADER VERT 16POS 2.54MM 
+J6    61300811121             61300811121             61300811121        CONN HEADER VERT 8POS 2.54MM  
+J8    61300811121             61300811121             61300811121        CONN HEADER VERT 8POS 2.54MM  
+J10   61300511121             61300511121             61300511121        CONN HEADER VERT 5POS 2.54MM  
+R3    4,7K                    R-EU_R0603              R0603              RESISTOR, European symbol     
+R4    4,7K                    R-EU_R0603              R0603              RESISTOR, European symbol     
+R5    4,7K                    R-EU_R0603              R0603              RESISTOR, European symbol     
+R6    4,7K                    R-EU_R0603              R0603              RESISTOR, European symbol     
+R7    4,7K                    R-EU_R0603              R0603              RESISTOR, European symbol     
+R8    4,7K                    R-EU_R0603              R0603              RESISTOR, European symbol     
+R9    4,7K                    R-EU_R0603              R0603              RESISTOR, European symbol     
+R10   4,7K                    R-EU_R0603              R0603              RESISTOR, European symbol     
+R11   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R12   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R13   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R14   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R15   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R16   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R17   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R18   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R19   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R20   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R21   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R22   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R23   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R24   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R25   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R26   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R27   4,7K                    R-EU_R0603              R0603              RESISTOR, European symbol     
+R28   4,7K                    R-EU_R0603              R0603              RESISTOR, European symbol     
+R29   4,7K                    R-EU_R0603              R0603              RESISTOR, European symbol     
+R30   4,7K                    R-EU_R0603              R0603              RESISTOR, European symbol     
+R31   4,7K                    R-EU_R0603              R0603              RESISTOR, European symbol     
+R32   4,7K                    R-EU_R0603              R0603              RESISTOR, European symbol     
+R33   4,7K                    R-EU_R0603              R0603              RESISTOR, European symbol     
+R34   4,7K                    R-EU_R0603              R0603              RESISTOR, European symbol     
+R35   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R36   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R37   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R38   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R39   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R40   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R41   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R42   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R43   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R44   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R45   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R46   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R47   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R48   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R49   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R50   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R51   5,2K                    R-EU_R0805              R0805              RESISTOR, European symbol     
+R52   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R53   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+R54   400K                    R-EU_R0805              R0805              RESISTOR, European symbol     
+R55   100K                    R-EU_R0805              R0805              RESISTOR, European symbol     
+R56   10K                     R-EU_R0805              R0805              RESISTOR, European symbol     
+S1                            DIP02YL                 DIP02YL            DIL/CODE SWITCH               
+T7    BC817U                  BC817U                  INF-SC74           NPN TRANSISTOR                
+T8    BC817U                  BC817U                  INF-SC74           NPN TRANSISTOR                
+T9    BC817U                  BC817U                  INF-SC74           NPN TRANSISTOR                
+T10   BC817U                  BC817U                  INF-SC74           NPN TRANSISTOR                
+T11   BC817U                  BC817U                  INF-SC74           NPN TRANSISTOR                
+T12   BC817U                  BC817U                  INF-SC74           NPN TRANSISTOR                
+T13   BC817U                  BC817U                  INF-SC74           NPN TRANSISTOR                
+T14   BC817U                  BC817U                  INF-SC74           NPN TRANSISTOR                

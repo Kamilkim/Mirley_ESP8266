@@ -251,10 +251,10 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <text x="-20.62" y="2" size="1.778" layer="25">&gt;NAME</text>
 <text x="-20.62" y="-4" size="1.778" layer="27">&gt;VALUE</text>
 </package>
-<package name="62000311121" urn="urn:adsk.eagle:footprint:11432181/1" library_version="15">
-<pad name="1" x="-2" y="0" drill="0.8" shape="square"/>
-<pad name="2" x="0" y="0" drill="0.8"/>
-<pad name="3" x="2" y="0" drill="0.8"/>
+<package name="62000311121" urn="urn:adsk.eagle:footprint:15328751/1" library_version="17">
+<pad name="1" x="-2" y="0" drill="0.8" diameter="1.6764" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="0.8" diameter="1.6764" shape="long" rot="R90"/>
+<pad name="3" x="2" y="0" drill="0.8" diameter="1.6764" shape="long" rot="R90"/>
 <wire x1="-3" y1="1" x2="-3" y2="-1" width="0.127" layer="51"/>
 <wire x1="-3" y1="-1" x2="3" y2="-1" width="0.127" layer="51"/>
 <wire x1="3" y1="-1" x2="3" y2="1" width="0.127" layer="51"/>
@@ -271,15 +271,15 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <text x="-3.302" y="1.651" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.302" y="-3.302" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="62000811121" urn="urn:adsk.eagle:footprint:11432184/2" library_version="15">
-<pad name="8" x="7" y="0" drill="0.8"/>
-<pad name="7" x="5" y="0" drill="0.8"/>
-<pad name="6" x="3" y="0" drill="0.8"/>
-<pad name="1" x="-7" y="0" drill="0.8" shape="square"/>
-<pad name="2" x="-5" y="0" drill="0.8"/>
-<pad name="3" x="-3" y="0" drill="0.8"/>
-<pad name="4" x="-1" y="0" drill="0.8"/>
-<pad name="5" x="1" y="0" drill="0.8"/>
+<package name="62000811121" urn="urn:adsk.eagle:footprint:15328570/1" library_version="16">
+<pad name="8" x="7" y="0" drill="0.8" diameter="1.6764" shape="long" rot="R90"/>
+<pad name="7" x="5" y="0" drill="0.8" diameter="1.6764" shape="long" rot="R90"/>
+<pad name="6" x="3" y="0" drill="0.8" diameter="1.6764" shape="long" rot="R90"/>
+<pad name="1" x="-7" y="0" drill="0.8" diameter="1.6764" shape="long" rot="R90"/>
+<pad name="2" x="-5" y="0" drill="0.8" diameter="1.6764" shape="long" rot="R90"/>
+<pad name="3" x="-3" y="0" drill="0.8" diameter="1.6764" shape="long" rot="R90"/>
+<pad name="4" x="-1" y="0" drill="0.8" diameter="1.6764" shape="long" rot="R90"/>
+<pad name="5" x="1" y="0" drill="0.8" diameter="1.6764" shape="long" rot="R90"/>
 <wire x1="-8" y1="1" x2="-8" y2="-1" width="0.127" layer="51"/>
 <wire x1="-8" y1="-1" x2="8" y2="-1" width="0.127" layer="51"/>
 <wire x1="8" y1="-1" x2="8" y2="1" width="0.127" layer="51"/>
@@ -303,12 +303,12 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <packageinstance name="61301611121"/>
 </packageinstances>
 </package3d>
-<package3d name="62000311121" urn="urn:adsk.eagle:package:11432193/2" type="model" library_version="15">
+<package3d name="62000311121" urn="urn:adsk.eagle:package:15328753/1" type="model" library_version="17">
 <packageinstances>
 <packageinstance name="62000311121"/>
 </packageinstances>
 </package3d>
-<package3d name="62000811121" urn="urn:adsk.eagle:package:11432195/4" type="model" library_version="15">
+<package3d name="62000811121" urn="urn:adsk.eagle:package:15328572/1" type="model" library_version="16">
 <packageinstances>
 <packageinstance name="62000811121"/>
 </packageinstances>
@@ -420,7 +420,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 </device>
 </devices>
 </deviceset>
-<deviceset name="62000311121" urn="urn:adsk.eagle:component:11687714/1" prefix="J" library_version="15">
+<deviceset name="62000311121" urn="urn:adsk.eagle:component:15328754/1" prefix="J" library_version="17">
 <description>&lt;h3&gt; THT Vertical Pin Header WR-PHD, Pitch 2.00 mm, Single Row, 3 pins &lt;/h3&gt;
 &lt;BR&gt;
 &lt;a href="https://datasheet.octopart.com/62000311121-W%C3%BCrth-Elektronik-datasheet-117282002.pdf"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
@@ -435,7 +435,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:11432193/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15328753/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -447,7 +447,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 </device>
 </devices>
 </deviceset>
-<deviceset name="62000811121" urn="urn:adsk.eagle:component:11687717/1" prefix="J" library_version="15">
+<deviceset name="62000811121" urn="urn:adsk.eagle:component:15328573/1" prefix="J" library_version="16">
 <description>&lt;h3&gt;THT Vertical Pin Header WR-PHD, Pitch 2.00 mm, Single Row, 8 pins&lt;/h3&gt;
 &lt;BR&gt;
 &lt;a href="https://datasheet.octopart.com/62000811121-W%C3%BCrth-Elektronik-datasheet-117282012.pdf"&gt; Manufacturer's datasheet&lt;/a&gt;</description>
@@ -467,7 +467,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:11432195/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15328572/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -9256,12 +9256,12 @@ Source: AVX .. aphvc.pdf</description>
 <part name="+3V21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="J4" library="Headers" library_urn="urn:adsk.eagle:library:13525965" deviceset="62000311121" device="" package3d_urn="urn:adsk.eagle:package:11432193/2"/>
+<part name="J4" library="Headers" library_urn="urn:adsk.eagle:library:13525965" deviceset="62000311121" device="" package3d_urn="urn:adsk.eagle:package:15328753/1"/>
 <part name="+3V24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="">
 <attribute name="SPICEPREFIX" value="G"/>
 </part>
-<part name="J7" library="Headers" library_urn="urn:adsk.eagle:library:13525965" deviceset="62000811121" device="" package3d_urn="urn:adsk.eagle:package:11432195/4">
+<part name="J7" library="Headers" library_urn="urn:adsk.eagle:library:13525965" deviceset="62000811121" device="" package3d_urn="urn:adsk.eagle:package:15328572/1">
 <attribute name="SPICEPREFIX" value="X"/>
 </part>
 <part name="R58" library="rcl" library_urn="urn:adsk.eagle:library:13439567" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
