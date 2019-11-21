@@ -8969,7 +8969,7 @@ Source: AVX .. aphvc.pdf</description>
 <rectangle x1="0.889" y1="-4.699" x2="1.651" y2="-2.921" layer="51"/>
 <rectangle x1="0.889" y1="-5.461" x2="1.651" y2="-4.699" layer="21"/>
 </package>
-<package name="2X04" urn="urn:adsk.eagle:footprint:22351/1" library_version="10">
+<package name="2X04" urn="urn:adsk.eagle:footprint:15331963/1" library_version="11">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="-5.08" y1="-1.905" x2="-4.445" y2="-2.54" width="0.1524" layer="21"/>
 <wire x1="-3.175" y1="-2.54" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
@@ -9000,14 +9000,14 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="4.445" y1="2.54" x2="5.08" y2="1.905" width="0.1524" layer="21"/>
 <wire x1="5.08" y1="1.905" x2="5.08" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="3.175" y1="-2.54" x2="4.445" y2="-2.54" width="0.1524" layer="21"/>
-<pad name="1" x="-3.81" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="2" x="-3.81" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="3" x="-1.27" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="4" x="-1.27" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="5" x="1.27" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="6" x="1.27" y="1.27" drill="1.016" shape="octagon"/>
-<pad name="7" x="3.81" y="-1.27" drill="1.016" shape="octagon"/>
-<pad name="8" x="3.81" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="1" x="-3.81" y="-1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="2" x="-3.81" y="1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="3" x="-1.27" y="-1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="4" x="-1.27" y="1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="5" x="1.27" y="-1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="6" x="1.27" y="1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="7" x="3.81" y="-1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
+<pad name="8" x="3.81" y="1.27" drill="1.016" diameter="1.9304" shape="octagon"/>
 <text x="-5.08" y="3.175" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-4.064" y1="-1.524" x2="-3.556" y2="-1.016" layer="51"/>
@@ -9079,8 +9079,8 @@ Source: AVX .. aphvc.pdf</description>
 <packageinstance name="2X02/90"/>
 </packageinstances>
 </package3d>
-<package3d name="2X04" urn="urn:adsk.eagle:package:22461/2" type="model" library_version="10">
-<description>PIN HEADER</description>
+<package3d name="2X04" urn="urn:adsk.eagle:package:15331965/1" type="model" library_version="11">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="2X04"/>
 </packageinstances>
@@ -9163,7 +9163,7 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PINHD-2X4" urn="urn:adsk.eagle:component:22527/4" prefix="JP" uservalue="yes" library_version="10">
+<deviceset name="PINHD-2X4" urn="urn:adsk.eagle:component:15331966/1" prefix="JP" uservalue="yes" library_version="11">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="PINH2X4" x="0" y="0"/>
@@ -9181,7 +9181,7 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="A" pin="8" pad="8"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22461/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15331965/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -9288,7 +9288,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="+3V25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:13445724" deviceset="PINHD-2X4" device="" package3d_urn="urn:adsk.eagle:package:22461/2"/>
+<part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:13445724" deviceset="PINHD-2X4" device="" package3d_urn="urn:adsk.eagle:package:15331965/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -10096,6 +10096,7 @@ ESP8266-01</text>
 <pinref part="JP2" gate="A" pin="2"/>
 <wire x1="121.92" y1="43.18" x2="129.54" y2="43.18" width="0.1524" layer="91"/>
 <junction x="121.92" y="43.18"/>
+<label x="111.76" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -10127,6 +10128,7 @@ ESP8266-01</text>
 <pinref part="JP2" gate="A" pin="4"/>
 <wire x1="121.92" y1="40.64" x2="129.54" y2="40.64" width="0.1524" layer="91"/>
 <junction x="121.92" y="40.64"/>
+<label x="111.76" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -10184,6 +10186,7 @@ ESP8266-01</text>
 <pinref part="JP2" gate="A" pin="6"/>
 <wire x1="121.92" y1="38.1" x2="129.54" y2="38.1" width="0.1524" layer="91"/>
 <junction x="121.92" y="38.1"/>
+<label x="109.22" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -10199,6 +10202,7 @@ ESP8266-01</text>
 <pinref part="JP2" gate="A" pin="8"/>
 <wire x1="121.92" y1="35.56" x2="129.54" y2="35.56" width="0.1524" layer="91"/>
 <junction x="121.92" y="35.56"/>
+<label x="111.76" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
